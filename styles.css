@@ -27,8 +27,7 @@ li {
 }
 
 .footer{
-    text-align: center;
-    padding-top: 20px;
+    padding-top: 8px;
     background-color: beige;
     font-family: 'DM Sans', sans-serif;
     color:black;
@@ -44,19 +43,20 @@ li {
 
 .nav_font {
   font-family: 'DM Sans', sans-serif;
+  font-size: medium;
 }
 
 /* Test Box */
 .box {
     /*background-color: aqua;*/
     border: 1px solid rgb(0, 0, 0);
-    min-height: 40px;  
+    /*min-height: 40px;  */
 }
 
 .slide-box {
   /*background: #f6e27a;*/
   /*background: rgb(0,0,0);*/
-  background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,0.07) 100%);
+  background: radial-gradient(circle, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.07) 100%);
 
 }
 
@@ -199,6 +199,16 @@ li {
     color:beige;
 }
 
+.suscribe-font {
+  font-family: 'Open Sans', sans-serif;
+  /*font-size:17px; */
+  font-size: calc(0.4rem + 0.9vw);
+  font-weight:100;
+  line-height: 1.2; 
+  /*padding-left: 15px;*/
+  color:rgb(27, 27, 27);
+}
+
 .gold {
   /*position: absolute;*/
   /*transform: translate(-50%,-50%);*/
@@ -298,3 +308,83 @@ li {
   .carousel-caption button {
     animation-delay: 3s;
   }
+
+  .carousel-caption {
+    position: absolute;
+    right: 15% !important;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem !important;
+    color: #fff;
+    text-align: center;
+  }
+
+  /* footer borders */
+
+.bottom_border_short{
+  /*border-right: 2px; 
+  border-right-style:groove; */
+  border-color: rgba(213, 213, 149, 0.5);
+}
+
+.bottom_border_short::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 1px;
+  border-bottom: 2px groove;
+  border-color: rgba(213, 213, 149, 0.5)
+}
+
+
+
+.right_border_short{
+  
+ 
+  position: relative;
+  z-index : 1;
+  /*border-right: 5px groove;*/
+}
+
+.right_border_short::after {
+  content: "";
+  position: absolute;
+ 
+  height: 80%;
+  right: 0;
+  bottom: 0;
+
+  border-right: 2px groove;
+  border-color: rgba(213, 213, 149, 0.5);
+  transform: translateY(-10%);
+}
+
+.footer-font-1 {
+  font-family: 'DM Sans', sans-serif;
+  color:black;
+  font-size: calc(0.03rem + 1.5vw);
+  text-align: center;
+}
+
+.footer-font-2 {
+  font-family: 'DM Sans', sans-serif;
+  color:black;
+  font-size: calc(0.03rem + 1.5vw);
+  text-align: left;
+}
+
+.footer-font-3 {
+  font-family: 'DM Sans', sans-serif;
+  color:black;
+  font-size: calc(0.03rem + 1.5vw);
+  text-align: right;
+}
+
+.footer-font-3-heading {
+  font-family: 'DM Sans', sans-serif;
+  color:black;
+  font-size: calc(0.4rem + 1.5vw);
+  text-align: right;
+}

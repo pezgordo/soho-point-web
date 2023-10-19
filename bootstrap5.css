@@ -3840,10 +3840,10 @@ fieldset:disabled .btn {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
   /*--bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.65);*/
-  --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.65);
+  --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.85);
   /*--bs-navbar-hover-color: rgba(var(--bs-emphasis-color-rgb), 0.8);*/
 
-  --bs-navbar-hover-color: rgba(255, 215, 0, 0.7);
+  --bs-navbar-hover-color: rgba(255, 215, 0, 0.8);
   --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3);
   --bs-navbar-active-color: rgba(var(--bs-emphasis-color-rgb), 1);
   --bs-navbar-brand-padding-y: 0.3125rem;
