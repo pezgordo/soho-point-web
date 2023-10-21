@@ -6,7 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">-->
   <link rel="stylesheet" href="bootstrap5.css">
-  <!--<link rel="stylesheet" href="breakpoint.css">-->
+
+  <!-- BREAKPOINTS -->
+  <!-- <link rel="stylesheet" href="breakpoint.css"> -->
+
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="styles.css">
   <link
@@ -37,108 +41,85 @@
 
     
     
-    <!-- Navbar Beggining-->
-    <div class="nav_holder nav_background">
-        <nav class="navbar navbar-expand-md py-0">
-            <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav mx-auto">
+<!-- Navbar Beggining-->
+<div class="nav_holder nav_background">
+    <nav class="navbar navbar-expand-md py-0">
+        <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav mx-auto">
 
-                    <!-- First Button -->
-                    <li class="nav-item">
-                        <a class="nav-link nav_font" href="/index.html">INICIO</a>
-                    </li>
+                <!-- First Button -->
+                <li class="nav-item">
+                    <a class="nav-link nav_font" href="/index.html">INICIO</a>
+                </li>
 
-                    <!--Second Button-->
-                    <li class="nav-item">
-                        <a class="nav-link nav_font" href="/informacion.html">INFORMACION</a>
-                    </li>
+                <!--Second Button-->
+                <li class="nav-item">
+                    <a class="nav-link nav_font" href="/informacion.html">INFORMACION</a>
+                </li>
 
-                    <!--Third Button-->
-                    <li class="nav-item">
-                        <a class="nav-link nav_font" href="/servicios.html">SERVICIOS</a>
-                    </li>
+                <!--Third Button-->
+                <li class="nav-item">
+                    <a class="nav-link nav_font" href="/servicios.html">SERVICIOS</a>
+                </li>
 
-                    <!--Fourth Button-->
-                    <li class="nav-item">
-                        <a class="nav-link nav_font" href="/contacto.html">CONTACTO</a>
-                    </li>
+                <!--Fourth Button-->
+                <li class="nav-item">
+                    <a class="nav-link nav_font" href="contacto.html">CONTACTO</a>
+                </li>
 
-                    <!--Fifth Button-->
-                    <li class="nav-item">
-                        <a class="nav-link nav_font" href="#">TURNOS</a>
-                    </li>
+                <!--Fifth Button-->
+                <li class="nav-item">
+                    <a class="nav-link nav_font" href="#">TURNOS</a>
+                </li>
 
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
-    <!--END NAVBAR-->
-
-
-<!-- INFORMACION TEXT BOX -->
-<div class="container-fluid bg-black">
-
-    <!-- Title -->
-    <div class="row">
-        <div class="col text-center">
-            <div class="gold-slide p-4">
-                SOMOS SOHO POINT
+                </ul>
             </div>
         </div>
-    </div>
-
-    <!-- Text -->
-    <div class="row justify-content-center">
-        <div class="col-10 text-center p-4">
-            <div class="info-box">
-                <div class="info-text p-5">
-                    <div>
-                        Soho Point Beauty Salon esta ubicado en la zona norte de la ciudad de Santa Cruz de la Sierra (6to anillo y Av. Banzer, detras de la Universidad UDI). Ofrece una amplia gama de servicios y productos para mejorar la imagen de las personas de manera integral. Queremos que nuestros clientes sientan una atmósfera especial, con un trato profesional y cordial durante su estadía. Que encuentren en nuestro salón todos los servicios que requieran para cuidar su estética y presentación.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>   
+    </nav>
 </div>
-<!-- END INFORMACION TEXT BOX -->
+<!--END NAVBAR-->
 
 
-<!-- UBICACION -->
+
+
 <div class="container-fluid bg-black">
-    <!-- Title -->
-    <div class="row ">
-        <div class="col text-center me-auto">
-            <div class="gold-slide p-4">
-                DONDE ESTAMOS?
+    <div class="row justify-content-center pt-4">
+        <div class="col-10">
+            <div class="heading-info-text">
+                CONTACTANOS
             </div>
-        </div>
-    </div>
-
-    <!-- Map -->
-    <div class="row justify-content-center">
-        <div class="col-10 text-center d-flex justify-content-center">
-            <div class="info-box p-4 "  id="map">
-                <iframe src="https://storage.googleapis.com/maps-solutions-fx3l65buiu/locator-plus/ne3u/locator-plus.html"
-                width="100%" height="100%"
-                style="border:0;"
-                
-                loading="lazy"
-                allowfullscreen
-                class="ratio ratio-16x9">
-                
-              </iframe>
-            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label form-label-text">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@dominio.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label form-label-text">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <div class="col-auto">
+                <button type="submit" class="btn btn-dark mb-3">Enviar Mensaje</button>
+              </div>
+              <div class="mb-3">
+                <div class="servicios-header"> UNETE AL STAFF</div>
+                    <div><tag>¿Te apasiona el mundo de la belleza como a nosotros? Ésta puede ser tu oportunidad para integrarte al Staff de Soho Point.
+                        Buscamos gente comprometida, profesional y constante, dispuesta a capacitarse y aprender diariamente en esta industria.</tag> </div>
+                    
+              </div>
+              <div class="col-auto d-flex justify-content-center">
+                <button type="submit" class="btn btn-dark mb-3">Unete Ya!</button>
+              </div>
         </div>
     </div>
 </div>
 
 
-  <!--- FOOTER --->
+
+
+<!--- FOOTER --->
 
 <div class="container-fluid footer">
 
